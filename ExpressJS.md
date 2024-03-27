@@ -1,4 +1,4 @@
-# ExpressJS
+# 1. ExpressJS
 
 ExpressJS is a JavaScript framework for backend development and its made to run outside the browser, a popular runtime for it is Node, simply download install it and to run a javascript file do:
 `node fileName.js` or to support live changes, use nodemon `nodemon fileName.js`
@@ -12,7 +12,7 @@ Every import has to be first installed to your project folder with the command `
 
 `package.json` will keep track of your dependencies, which are installed at the folder `node_modules`. To reinstall everything again, simply do `npm i` at the directory containing the `package.json` file and the node_modules will be generated again, so there's no need to commit it. Please do not commit `node_modules` or `package-lock.json`
 
-## Basic Structure
+## 1.1. Basic Structure
 
 ```js
 import express from "express" // Imports express under the name express
